@@ -4,12 +4,14 @@
 
 let nomor = 0;
 const tampil = document.querySelector('.nomor');
+const btns = document.querySelectorAll('.btn')
 
 //? ===========================
 //?  MEMBUAT FUNCTION TOMBOL
 //? ===========================
 
-const mundur = document.querySelector('.mundur')
+const mundur = document.querySelector('.mundur');
 mundur.addEventListener('click',function(){
-    tampil.textContent= nomor--;
-});
+    nomor--;
+    tampil.textContent = nomor;
+})
