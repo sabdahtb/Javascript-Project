@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  padding: 50px;
+  font-family: "Jua", sans-serif;
+}
+.gbr {
+  margin-top: 80px;
+  font-size: 150px;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+.buka {
+  display: none;
+}
+.tutup {
+  display: none;
+}
+.active {
+  display: block;
+}
+.muncul {
+  font-family: "Jua", sans-serif;
+  font-size: 50px;
+}
