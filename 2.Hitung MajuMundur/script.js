@@ -17,6 +17,7 @@ mundur.addEventListener('click',function(){
     nomor--;
     tampil.innerHTML=nomor;
     if(nomor<0) tampil.style.color='red';
+    if(nomor==0) tampil.style.color='black';
 });
 
 reset.addEventListener('click',function(){
@@ -29,4 +30,5 @@ maju.addEventListener('click',function(){
     nomor++;
     tampil.innerHTML=nomor;
     if(nomor>0) tampil.style.color='green';
+    if(nomor==0) tampil.style.color='black';
 });
