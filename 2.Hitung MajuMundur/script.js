@@ -16,15 +16,17 @@ let nomor = 0;
 mundur.addEventListener('click',function(){
     nomor--;
     tampil.innerHTML=nomor;
-    tampil.style.color='red'
+    if(nomor<0) tampil.style.color='red';
 });
 
 reset.addEventListener('click',function(){
     nomor=0;
     tampil.innerHTML=nomor;
+    if(nomor==0) tampil.style.color='black';
 });
 
 maju.addEventListener('click',function(){
     nomor++;
     tampil.innerHTML=nomor;
+    if(nomor>0) tampil.style.color='green';
 });
