@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: calibri;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(16, 50, 94);
+  color: azure;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  padding-top: auto;
+}
+.hover {
+  transform: scale(2);
+  background-color: rgb(7, 26, 51);
+}
