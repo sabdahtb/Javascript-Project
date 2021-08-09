@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+}
+.kalkulator {
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  margin: 100px auto 0 auto;
+  box-shadow: 2px 2px 5px gray, -3px -3px 7px rgb(245, 245, 245);
+  padding: 20px 10px;
+}
+.atas {
+  height: 50px;
+  width: 250px;
+  box-shadow: inset 2px 2px 5px gray, inset -3px -3px 7px rgb(245, 245, 245);
+  border-radius: 5px;
+  margin: auto;
+}
+.tampil {
+  height: 95%;
+  width: 95%;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  pointer-events: none;
+  text-align: right;
+  color: rgb(126, 126, 126);
+}
+.tombol {
+  margin-top: 20px;
+}
+.row input {
+  background: none;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 5px gray, -3px -3px 7px rgb(245, 245, 245);
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  cursor: pointer;
+}
+.row input:hover {
+  color: black;
+}
+input.clear {
+  color: darkred;
+}
+input.clear:hover {
+  color: red;
+}
+.mode {
+  box-shadow: 2px 2px 5px gray, -3px -3px 7px rgb(245, 245, 245);
+  font-size: 13px;
+  color: rgb(59, 59, 59);
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+  background: none;
+}
+.mode:hover {
+  color: black;
+}
+
+/*?=================== */
+/*? DARK               */
+/*?=================== */
+
+.dark {
+  background-color: rgb(39, 39, 39);
+}
+.dark .kalkulator {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0), -3px -3px 7px rgb(44, 44, 44);
+}
+.dark .mode {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0), -3px -3px 7px rgb(44, 44, 44);
+  color: rgb(110, 110, 110);
+}
+.dark .mode:hover {
+  color: rgb(184, 184, 184);
+}
+.dark .row input {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0), -3px -3px 7px rgb(44, 44, 44);
+  color: rgb(110, 110, 110);
+}
+.dark .row input:hover {
+  color: rgb(184, 184, 184);
+}
+.dark .atas {
+  box-shadow: inset 2px 2px 5px rgb(0, 0, 0),
+    inset -3px -3px 7px rgb(44, 44, 44);
+  color: rgb(110, 110, 110);
+}
+.dark input.clear {
+  color: rgb(206, 0, 0);
+}
+.dark input.clear:hover {
+  color: red;
+}

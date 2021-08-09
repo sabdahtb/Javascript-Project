@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="kalkulator">
+        <form action="#" name="form">
+            <div class="atas">
+                <input type="text" name="tampil" class="tampil">
+            </div>
+            <div class="tombol">
+                <div class="row">
+                    <input type="button" value="7" name="t7" onclick="tombol(t7.value)">
+                    <input type="button" value="8" name="t8" onclick="tombol(t8.value)">
+                    <input type="button" value="9" name="t9" onclick="tombol(t9.value)">
+                    <input type="button" value="+" name="tambah" onclick="tombol(tambah.value)">
+                </div>
+                <div class="row">
+                    <input type="button" value="4" name="t4" onclick="tombol(t4.value)">
+                    <input type="button" value="5" name="t5" onclick="tombol(t5.value)">
+                    <input type="button" value="6" name="t6" onclick="tombol(t6.value)">
+                    <input type="button" value="-" name="kurang" onclick="tombol(kurang.value)">
+                </div>
+                <div class="row">
+                    <input type="button" value="1" name="t1" onclick="tombol(t1.value)">
+                    <input type="button" value="2" name="t2" onclick="tombol(t2.value)">
+                    <input type="button" value="3" name="t3" onclick="tombol(t3.value)">
+                    <input type="button" value="*" name="kali" onclick="tombol(kali.value)">
+                </div>
+                <div class="row">
+                    <input type="button" value="C" name="clear" class="clear">
+                    <input type="button" value="0" name="t0" onclick="tombol(t0.value)">
+                    <input type="button" value="/" name="bagi" onclick="tombol(bagi.value)">
+                    <input type="button" value="=" name="hasil" class="hasil">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <button class="mode"><b>DARK/LIGHT MODE</b></button>
+    
+    <script src="index.js"></script>
+</body>
+</html>
