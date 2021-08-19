@@ -7,7 +7,6 @@ const tombol = document.querySelector('.btn');
 
 tombol.addEventListener('click',function(){
 
-    setInterval(() => {
         const merah = Math.floor(Math.random()*255);
         const hijau = Math.floor(Math.random()*255);
         const biru = Math.floor(Math.random()*255);
@@ -23,6 +22,5 @@ tombol.addEventListener('click',function(){
         tampil.textContent=`rgb(${merah}, ${hijau}, ${biru} )`
 
         return tombol;
-    }, 400);
 });
 
