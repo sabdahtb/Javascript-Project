@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  background-color: rgb(11, 11, 31);
+}
+.judul {
+  margin-top: 100px;
+  color: rgb(226, 226, 226);
+}
+.judul h4 {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.judul p {
+  font-size: 10px;
+  margin-left: 105px;
+  color: rgb(97, 97, 97);
+}
+.jam {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.jam div {
+  -webkit-box-reflect: below 2px linear-gradient(transparent, #0099);
+  border-radius: 8%;
+}
+.boxJam {
+  margin-right: 5px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(185, 158, 0);
+  color: rgb(11, 11, 31);
+  position: relative;
+}
+.boxJam p {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  border-bottom: 2px solid grey;
+}
+.jamisi {
+  font-size: 40px;
+}
+.boxMenit {
+  margin-right: 5px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(165, 165, 0);
+  color: rgb(11, 11, 31);
+  position: relative;
+}
+.boxMenit p {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  border-bottom: 2px solid grey;
+}
+.menit {
+  font-size: 40px;
+}
+.boxDetik {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(187, 4, 178);
+  color: rgb(11, 11, 31);
+  position: relative;
+}
+.boxDetik p {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  border-bottom: 2px solid grey;
+}
+.detik {
+  font-size: 40px;
+}
