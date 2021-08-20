@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: rgb(197, 197, 197);
+  padding-top: 100px;
+  color: rgb(29, 29, 29);
+  transition: background-color 2s, color 1s;
+}
+span {
+  font-family: "Concert One", cursive;
+  font-size: 50px;
+}
+.container h4 {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.container p {
+  font-size: 10px;
+}
+.container-jam {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+.container-jam div {
+  height: 100px;
+  width: 100px;
+  -webkit-box-reflect: below -3px linear-gradient(transparent, #0099);
+  transition: background-color 1s color 1s;
+}
+.jam-box {
+  margin-right: 3px;
+  border: 2px solid #0a1931;
+  border-radius: 3px;
+  background-color: #9fd8df;
+}
+.jam-box p {
+  padding: 5px;
+  border-bottom: 2px solid rgb(54, 20, 20);
+  font-size: 15px;
+}
+.menit-box {
+  margin-right: 3px;
+  border: 2px solid #0a1931;
+  border-radius: 3px;
+  background-color: #fea82f;
+}
+.menit-box p {
+  padding: 5px;
+  border-bottom: 2px solid rgb(29, 29, 29);
+  font-size: 15px;
+}
+.detik-box {
+  margin-right: 5px;
+  border: 2px solid #0a1931;
+  border-radius: 3px;
+  background-color: #ff7171;
+}
+.detik-box p {
+  padding: 5px;
+  border-bottom: 2px solid rgb(29, 29, 29);
+  font-size: 15px;
+}
+.darkmode {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 100px;
+  background-color: rgb(235, 235, 235);
+  height: 30px;
+  width: 16%;
+  font-size: 20px;
+  padding-top: 3px;
+  border-radius: 20px;
+  padding: 3px 6px;
+  margin-left: 42%;
+  box-shadow: 0 0 5px grey;
+}
+.date {
+  position: absolute;
+  margin-top: 160px;
+  justify-content: center;
+  width: 14%;
+  height: 16.5%;
+  background-color: #7eca9c;
+  border: 2px solid #0a1931;
+  border-radius: 10px;
+  margin-left: 43%;
+  -webkit-box-reflect: below -3px linear-gradient(transparent, #0099);
+  transition: background-color 1s color 1s;
+}
+.date .bulan {
+  padding: 3px;
+  border-bottom: 2px solid #0a1931;
+}
+.date .tahun {
+  padding: 3px;
+  border-top: 2px solid #0a1931;
+}
+/*?=============DARK MODE===============?*/
+.dark {
+  background-color: #0a1931;
+  color: rgb(194, 194, 194);
+  transition: 2s;
+}
+.dark .jam-box {
+  background-color: #120078;
+}
+.dark .menit-box {
+  background-color: #ff5200;
+}
+.dark .detik-box {
+  background-color: #f21170;
+}
+.dark .darkmode {
+  background-color: #040b18;
+  box-shadow: 0 0 10px white;
+}
+.dark .date {
+  background-color: #00775d;
+}
