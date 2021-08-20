@@ -26,8 +26,8 @@ setInterval(() => {
     let tgl = new Date().getDate();
     let thn = new Date().toLocaleString(navigator.language,{weekday:'long'});
     
-    bulan.innerHTML = b;
+    bulan.innerHTML = thn;
     tanggal.innerHTML = tgl;
-    tahun.innerHTML = thn ;
+    tahun.innerHTML = b ;
 
 }, 1000);
